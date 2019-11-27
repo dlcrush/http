@@ -1,0 +1,21 @@
+{
+    "name": "crush/http",
+    "description": "Utility for Http requests",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Crush",
+            "email": "dlcrush@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Crush\\Http\\HttpServiceProvider"
+            ]
+        }
+    }
+}
