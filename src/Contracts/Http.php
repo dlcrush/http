@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Library\Http\Contracts;
+namespace Crush\Http\Contracts;
 
 interface Http {
 
@@ -20,7 +20,7 @@ interface Http {
 
     public function put(String $url, $data=[], $options = []);
 
-    public function delete(String $url, $data=[], $options = []);
+    public function delete(String $url, $options = []);
 
     public function getAsync(String $url, $options = []);
 
@@ -28,6 +28,6 @@ interface Http {
 
     public function putAsync(String $url, $data=[], $options = []);
 
-    public function deleteAsync(String $url, $data=[], $options = []);
+    public function deleteAsync(String $url, $options = []);
 
 }
